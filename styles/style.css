@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/* utility classes */
+.link--hover{
+    color: rgb(129, 129, 129);
+    transition: all 0.5s;
+}
+.link--hover:hover{
+    color: rgb(0, 0, 0);
+}
+/* utility classes */
+.student__documents__pagination--container{
+    display: flex;
+}
+.student__documents__pagination{
+    width: 50vw;
+    min-height: 300px;
+    padding: 2.5%;
+    background-color: aliceblue;
+}
+.student__documents__pagination__img--background{
+    width: 49.8vw;
+    min-height: 300px;
+    background-image: url(../assets/download.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.student__documents__pagination__btn--container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1vw;
+    padding-bottom: 2vw;
+}
+.student__documents__pagination__btn__left--container{
+    display: flex;
+    gap: 1vw;
+}
+.student__documents__pagination__btn__right--container{
+    display: flex;
+    gap: 1vw;
+}
+.student__documents__pagination__btn__left--content{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vw;
+    justify-content: space-around;
+}
+.student__documents__pagination__btn__right--content{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vw;
+    justify-content: space-around;
+}
+.student__documents__pagination__btn__left{
+    display: flex;
+    width: 1vw;
+    align-items: center;
+}
+.student__documents__pagination__btn__left>img{
+    max-width: 100%;
+    width: 100%;
+}
+.student__documents__pagination__btn__right{
+    display: flex;
+    width: 1vw;
+    align-items: center;
+}
+.student__documents__pagination__btn__right>img{
+    max-width: 100%;
+    width: 100%;
+}
+.student__documents__content--container{
+    margin-top: 2.5vw;
+    padding-left: 4%;
+    max-width: 45%;
+    line-height: 1.6;
+}
+.student__documents__conten--title{
+    margin-bottom: 0.5vw;
+}
+.student__documents__content--ol>li{
+    margin-bottom: 0.5vw;
+}
+.student__documents__content--ol--1>li{
+    margin-bottom: 0.5vw;
+}
