@@ -76,7 +76,7 @@
 .student__documents__content--container{
     margin-top: 2.5vw;
     padding-left: 4%;
-    max-width: 45%;
+    max-width: 85%;
     line-height: 1.6;
 }
 .student__documents__conten--title{
@@ -90,6 +90,6 @@
 }
 @media only screen and (max-width: 800px) {
     .student__documents__content--container{
-        max-width: 95%;
+        max-width: 99%;
     }
   }
