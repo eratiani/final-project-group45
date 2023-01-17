@@ -16,6 +16,7 @@
 /* utility classes */
 .student__documents__pagination--container{
     display: flex;
+    flex-wrap: wrap;
 }
 .student__documents__pagination{
     width: 50vw;
@@ -103,13 +104,18 @@
     .student__documents__content--container{
         max-width: 99%;
     }
-    .link--hover{
-        display: none;
-    }
+
     .student__documents__pagination__btn__left{
-        width: 50px;
+        width: 25px;
     }
     .student__documents__pagination__btn__right{
-        width: 50px;
+        width: 25px;
+    }
+    .student__documents__pagination{
+        width: 100vw;
+       
+    }
+    .student__documents__pagination__img--background{
+        width: 100vw;
     }
   }
