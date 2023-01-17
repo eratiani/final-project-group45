@@ -32,6 +32,7 @@
 .student__documents__pagination__btn--container{
     display: flex;
     justify-content: space-between;
+    position: relative;
     margin-top: 1vw;
     padding-bottom: 2vw;
 }
@@ -87,6 +88,15 @@
 }
 .student__documents__content--ol--1>li{
     margin-bottom: 0.5vw;
+}
+.student__documents__pagination__btn__left--content::after{
+    content: " ";
+    width: 2px;
+    height: 60px;
+    position: absolute;
+    top: 0%;
+    left: 45%;
+    background-color: rgb(41, 40, 40);
 }
 @media only screen and (max-width: 800px) {
     .student__documents__content--container{
