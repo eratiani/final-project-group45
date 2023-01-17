@@ -8,6 +8,7 @@
 .link--hover{
     color: rgb(129, 129, 129);
     transition: all 0.5s;
+    text-align: right;
 }
 .link--hover:hover{
     color: rgb(0, 0, 0);
@@ -95,11 +96,20 @@
     height: 60px;
     position: absolute;
     top: 0%;
-    left: 45%;
+    left: 50%;
     background-color: rgb(41, 40, 40);
 }
 @media only screen and (max-width: 800px) {
     .student__documents__content--container{
         max-width: 99%;
+    }
+    .link--hover{
+        display: none;
+    }
+    .student__documents__pagination__btn__left{
+        width: 50px;
+    }
+    .student__documents__pagination__btn__right{
+        width: 50px;
     }
   }
