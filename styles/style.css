@@ -16,7 +16,6 @@
 /* utility classes */
 .student__documents__pagination--container{
     display: flex;
-    flex-wrap: wrap;
 }
 .student__documents__pagination{
     width: 50vw;
@@ -117,5 +116,11 @@
     }
     .student__documents__pagination__img--background{
         width: 100vw;
+    }
+    .student__documents__pagination__btn__left--content::after{
+        display: none;
+    }
+    .student__documents__pagination--container{
+        flex-wrap: wrap;
     }
   }
