@@ -88,3 +88,8 @@
 .student__documents__content--ol--1>li{
     margin-bottom: 0.5vw;
 }
+@media only screen and (max-width: 800px) {
+    .student__documents__content--container{
+        max-width: 95%;
+    }
+  }
